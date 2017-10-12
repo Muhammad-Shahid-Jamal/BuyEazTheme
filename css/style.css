@@ -1,7 +1,7 @@
 .navbar-inverse {
-	background-image: linear-gradient(to bottom,rgba(244, 244, 244, 0.5) 0,rgba(34, 34, 34, 0.24) 100%);
-    background-color: rgba(244, 244, 244, 0.5);
-    border-color: rgba(244, 244, 244, 0.5);
+	background-image: none;
+    background-color: #ACDBF3;
+    border-color: #ACDBF3;
 }
 
 #add-cart {
@@ -84,5 +84,65 @@
 .user-login {
     position: absolute;
     right: 80px;
-    top: 8px;
+    top: 10px;
+    background-color: white;
+    padding: 5px 12px;
+}
+
+.after-nav {
+    margin-top: 50px;
+}
+
+.after-nav .img-responsive{
+	width: 100%;
+}
+.trace-div {
+	position: relative;
+    top: -40px;
+    text-align: center;
+}
+.trace-div .slide-bar{
+    display: inline-block;
+    width: 20px;
+    height: 3px;
+    background-color: red;
+}
+.leftArrow {
+    position: absolute;
+    top: 40%;
+    font-size: 30px;
+    left: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    line-height: 30px;
+    padding-left: 2px;
+    padding-right: 1px;
+}
+
+.rightArrow {
+    position: absolute;
+    top: 40%;
+    font-size: 30px;
+    right: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    line-height: 30px;
+    padding-left: 2px;
+    padding-right: 1px;
+}
+
+.slider-div {
+    position: relative;
+}
+
+.product {
+    border: 1px solid rgba(128, 128, 128, 0.34);
+}
+
+.product h3,.product h4{
+	padding-left: 10px;
+}
+
+.product-details {
+    padding: 0px 10px 10px 10px;
 }
