@@ -91,6 +91,7 @@
 
 .after-nav {
     margin-top: 50px;
+    position: relative;
 }
 
 .after-nav .img-responsive{
@@ -137,6 +138,7 @@
 
 .product {
     border: 1px solid rgba(128, 128, 128, 0.34);
+    margin-top: 20px;
 }
 
 .product h3,.product h4{
@@ -145,4 +147,66 @@
 
 .product-details {
     padding: 0px 10px 10px 10px;
+}
+
+.quentity-assign-div {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.quentity-assign-div span{
+	font-weight: bold;
+}
+
+.quntity-of-pro {
+    width: 60px;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+.add-to-cart {
+    position: relative;
+    font-size: 24px;
+    border: 1px solid gray;
+    padding: 10px 12px 10px 12px;
+    border-radius: 50%;
+    right: 10px;
+    top: 3px;
+}
+
+.side-pannel-bar {
+    position: fixed;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.81);
+}
+
+.side-pannel-bar a img{
+    width: 30px;
+}
+
+.side-pannel-bar a i{
+	font-size: 20px;
+}
+
+.side-pannel-bar a{
+	display: block;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    color: #b7b5b5;
+}
+.close-side-bar a{
+	margin-top: 0px !important;
+}
+.close-side-bar a span{
+    display: none;
+}
+
+.close-side-bar a i{
+	position: relative;
+    left: 4px;
+    top: 1px;
 }
