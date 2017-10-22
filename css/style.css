@@ -1,14 +1,14 @@
+@import url(saasStyle.css);
 .navbar-inverse {
-	background-image: none;
-    background-color: #ACDBF3;
-    border-color: #ACDBF3;
+    background-color: #E9E9E9;
+    border-color: #E9E9E9;
 }
 
 #add-cart {
     display: inline-block;
     padding: 14px;
     position: relative;
-    border: 1px solid rgba(128, 128, 128, 0.6);
+    border: 1px solid rgba(0, 134, 254, 0.6);
     width: 38px;
     top: 10px;
     left: 17px;
@@ -28,7 +28,7 @@
     right: -11px;
     top: 20px;
     padding: 0px 5px;
-    background-color: red;
+    background-color: #003766;
     border-radius: 50%;
     color: white;
 }
@@ -45,11 +45,11 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
+    border-color: rgba(0, 134, 254, 0.6);
 }
 
 .navbar-bars-btn .icon-bar{
 	display: block;
-    background-color: #fff;
     width: 22px;
     height: 2px;
     border-radius: 1px;
@@ -67,12 +67,15 @@
     display: inline-block;
     position: absolute;
     right: 107px;
-    top: 10px;
+    top: 12px;
 }
 
 .search-bar input{
 	padding: 4px 5px 4px 5px;
     border-radius: 4px;
+    border-width: 1px;
+    border-color: rgba(0, 134, 254, 0.6);
+    border-style: solid;
 }
 
 .search-bar .glyphicon-search{
@@ -87,6 +90,7 @@
     top: 10px;
     background-color: white;
     padding: 5px 12px;
+    color: #0086FC;
 }
 
 .after-nav {
@@ -136,22 +140,13 @@
     position: relative;
 }
 
-.product {
-    border: 1px solid rgba(128, 128, 128, 0.34);
-    margin-top: 20px;
-}
-
 .product h3,.product h4{
 	padding-left: 10px;
+    margin-bottom: 14px;
 }
 
 .product-details {
     padding: 0px 10px 10px 10px;
-}
-
-.quentity-assign-div {
-    text-align: right;
-    margin-bottom: 20px;
 }
 
 .quentity-assign-div span{
@@ -161,7 +156,7 @@
 .quntity-of-pro {
     width: 60px;
     margin-right: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     padding-left: 5px;
 }
 
@@ -179,7 +174,7 @@
     position: fixed;
     height: 100%;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.81);
+    background-color: #003766;
 }
 
 .side-pannel-bar a img{
@@ -196,7 +191,7 @@
     margin-top: 10px;
     padding: 10px;
     border-bottom: 1px solid white;
-    color: #b7b5b5;
+    color: white;
 }
 .close-side-bar a{
 	margin-top: 0px !important;

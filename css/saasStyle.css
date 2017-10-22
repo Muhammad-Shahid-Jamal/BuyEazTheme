@@ -1,0 +1,67 @@
+body {
+  background-color: rgba(207, 207, 207, 0.05); }
+
+#add-cart {
+  color: #0086FC; }
+
+#add-cart:hover {
+  transition: all 0.3s;
+  color: #003766;
+  border-color: #003766; }
+
+.user-login:hover {
+  transition: all 0.3s;
+  color: #003766; }
+
+.search-bar input:focus + .glyphicon-search {
+  color: #0086FC; }
+
+.navbar-bars-btn .icon-bar {
+  background-color: #016DCC;
+  transition: all 0.5s; }
+
+.navbar-bars-btn:focus {
+  border: 1px solid #003766;
+  box-shadow: none;
+  outline: none; }
+
+.change-icon .icon-bar1 {
+  transform: rotate(-45deg) translate(-5px, 3px); }
+.change-icon .icon-bar2 {
+  opacity: 0; }
+.change-icon .icon-bar3 {
+  transform: rotate(45deg) translate(-5px, -4px); }
+
+.product {
+  box-shadow: 0px 0px 15px #E9E9E9;
+  padding: 0px 7px 0px 0px;
+  margin-bottom: 20px;
+  background-color: white; }
+  .product .product-description {
+    margin-top: 20px;
+    padding-left: 10px;
+    border-top: 1px solid gray; }
+  .product .quentity-assign-div {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 9px; }
+    .product .quentity-assign-div .quntity-of-pro {
+      border: 1px solid rgba(0, 134, 254, 0.6); }
+    .product .quentity-assign-div .add-to-cart {
+      position: absolute;
+      font-size: 24px;
+      border: 1px solid #0181DC;
+      color: #0181DC;
+      padding: 8px 12px 6px 12px;
+      border-radius: 100%;
+      right: 3px;
+      top: -15px; }
+    .product .quentity-assign-div .add-to-cart:hover {
+      transition: all 0.2s;
+      box-shadow: 0px 0px 2px 0px; }
+  .product h3 {
+    color: #004676; }
+  .product h4 span {
+    color: #0086FC; }
+
+/*# sourceMappingURL=saasStyle.css.map */

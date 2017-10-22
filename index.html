@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+<!--        <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">-->
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
@@ -32,10 +32,10 @@
                         <button type="button" class="btn user-login">
                             <span class="glyphicon glyphicon-user"></span>
                         </button>
-                        <button type="button" class="navbar-bars-btn">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
+                        <button type="button" class="navbar-bars-btn change-icon">
+                            <span class="icon-bar icon-bar1"></span>
+                            <span class="icon-bar icon-bar2"></span>
+                            <span class="icon-bar icon-bar3"></span>
                         </button>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                 <i class="fa fa-home"></i> <span>Home</span>
             </a>
             <a href="#">
-                <img src="images/ch_icon.png"> <span>Chargers</span>
+                <img src="images/ch_icon_hover.png"> <span>Chargers</span>
             </a>
             <a href="#">
                 <i class="fa fa-headphones"></i> <span>Handsfree</span>
@@ -83,69 +83,139 @@
             <div class="row">
                 <div class="col-sm-6 col-md-4 col-lg-4">
                     <div class="product">
-                        <img src="images/900x350.png" class="img-responsive">
-                        <h3><a href="#">Product Name</a></h3>
-                        <h4>Price</h4>
-                        <div class="product-details">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                        </div>
-                        <div class="quentity-assign-div">
-                            <span>Quantity</span>
-                            <input type="number" name="count" class="quntity-of-pro">
-                            <a href="#" class="add-to-cart">
-                                <span class="glyphicon glyphicon-shopping-cart"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-4">
-                    <div class="product">
-                        <img src="images/900x350.png" class="img-responsive">
-                        <h3><a href="#">Product Name</a></h3>
-                        <h4>Price</h4>
-                        <div class="product-details">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                        </div>
-                        <div class="quentity-assign-div">
-                            <span>Quantity</span>
-                            <input type="number" name="count" class="quntity-of-pro">
-                            <a href="#" class="add-to-cart">
-                                <span class="glyphicon glyphicon-shopping-cart"></span>
-                            </a>
+                        <div class="row">
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                                <img src="images/test.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                                <h3>Usb Charger</h3>
+                                <h4>Rs:<span>145</span></h4>
+                                <div class="product-description">
+                                    <p>2.1A Complete (For android mobiles)</p>
+                                </div>
+                                <div class="quentity-assign-div">
+                                    <span>Quantity</span>
+                                    <input type="number" name="count" class="quntity-of-pro">
+                                    <a href="#" class="add-to-cart">
+                                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4">
                     <div class="product">
-                        <img src="images/900x350.png" class="img-responsive">
-                        <h3><a href="#">Product Name</a></h3>
-                        <h4>Price</h4>
-                        <div class="product-details">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                        </div>
-                        <div class="quentity-assign-div">
-                            <span>Quantity</span>
-                            <input type="number" name="count" class="quntity-of-pro">
-                            <a href="#" class="add-to-cart">
-                                <span class="glyphicon glyphicon-shopping-cart"></span>
-                            </a>
+                        <div class="row">
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                                <img src="images/test2.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                                <h3>Usb Charger</h3>
+                                <h4>Rs:<span>145</span></h4>
+                                <div class="product-description">
+                                    <p>2.1A Complete (For android mobiles)</p>
+                                </div>
+                                <div class="quentity-assign-div">
+                                    <span>Quantity</span>
+                                    <input type="number" name="count" class="quntity-of-pro">
+                                    <a href="#" class="add-to-cart">
+                                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4">
                     <div class="product">
-                        <img src="images/900x350.png" class="img-responsive">
-                        <h3><a href="#">Product Name</a></h3>
-                        <h4>Price</h4>
-                        <div class="product-details">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <div class="row">
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                                <img src="images/test.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                                <h3>Usb Charger</h3>
+                                <h4>Rs:<span>145</span></h4>
+                                <div class="product-description">
+                                    <p>2.1A Complete (For android mobiles)</p>
+                                </div>
+                                <div class="quentity-assign-div">
+                                    <span>Quantity</span>
+                                    <input type="number" name="count" class="quntity-of-pro">
+                                    <a href="#" class="add-to-cart">
+                                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="quentity-assign-div">
-                            <span>Quantity</span>
-                            <input type="number" name="count" class="quntity-of-pro">
-                            <a href="#" class="add-to-cart">
-                                <span class="glyphicon glyphicon-shopping-cart"></span>
-                            </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="product">
+                        <div class="row">
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                                <img src="images/test2.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                                <h3>Usb Charger</h3>
+                                <h4>Rs:<span>145</span></h4>
+                                <div class="product-description">
+                                    <p>2.1A Complete (For android mobiles)</p>
+                                </div>
+                                <div class="quentity-assign-div">
+                                    <span>Quantity</span>
+                                    <input type="number" name="count" class="quntity-of-pro">
+                                    <a href="#" class="add-to-cart">
+                                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="product">
+                        <div class="row">
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                                <img src="images/test.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                                <h3>Usb Charger</h3>
+                                <h4>Rs:<span>145</span></h4>
+                                <div class="product-description">
+                                    <p>2.1A Complete (For android mobiles)</p>
+                                </div>
+                                <div class="quentity-assign-div">
+                                    <span>Quantity</span>
+                                    <input type="number" name="count" class="quntity-of-pro">
+                                    <a href="#" class="add-to-cart">
+                                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="product">
+                        <div class="row">
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                                <img src="images/test2.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                                <h3>Usb Charger</h3>
+                                <h4>Rs:<span>145</span></h4>
+                                <div class="product-description">
+                                    <p>2.1A Complete (For android mobiles)</p>
+                                </div>
+                                <div class="quentity-assign-div">
+                                    <span>Quantity</span>
+                                    <input type="number" name="count" class="quntity-of-pro">
+                                    <a href="#" class="add-to-cart">
+                                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
